@@ -4,7 +4,13 @@ tsc --init
 npm install dotenv express
 npm install -D @types/express @types/node nodemon ts-node typescript
 npm install prisma
+.env 
+  PORT=3100
+  FRONTEND_URL="http://localhost:3000"
 
+.gitignore
+  node_modules
+  .env
 
 
 
